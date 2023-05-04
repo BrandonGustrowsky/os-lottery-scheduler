@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(252, 250, 251);
+}
+
+@keyframes fade-in-title {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 60;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+@keyframes move-title {
+    0% {
+        transform: translate(0%, 30vh);
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes fade-in-icons {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 40;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
